@@ -58,20 +58,25 @@ button:hover {background-color: rgba(228, 228, 228, 0.164);}
 button:active {background-color: transparent;}
 
 .main-background {
-    height: 130vh;
+    height: 100vh;
+    position: relative;
     background-image: url(../imagens/background_imagens/MAOCOLORIDA-77.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
-    
+}
+@media (max-width: 1358px) {
+    .main-background {
+        height: 140vh;
+    }
 }
 .main {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 0;
+    position: absolute;
+    top: 50px;
     left: 0;
     right: 0;
 }
@@ -79,12 +84,8 @@ button:active {background-color: transparent;}
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    width: 40%;
     height: 600px;
-    width: 600px;
     border-radius: 4px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border: 1px solid rgb(110, 110, 110);
