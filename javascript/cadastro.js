@@ -80,13 +80,12 @@ function signUp() {
         });
     } else {
         let usuarioExistente = userDataBase.some(item => item.usuario === getInputValue(".input-user"));
-        let emailExistente = userDataBase.some(item => item.email === getInputValue(".input-email"));
 
-        if (usuarioExistente || emailExistente) {
+        if (usuarioExistente) {
             Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
-                text: 'O usuário ou email já existem no sistema!',
+                text: 'O usuário já existe no sistema!',
                 heightAuto: false,
                 customClass: {
                     popup: 'custom-popup',

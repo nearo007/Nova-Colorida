@@ -18,7 +18,7 @@ function doLogin(user, password) {
     let validLogin = false;
     for (let i = 0; i < userDataBase.length; i++) {
         const value = userDataBase[i];
-        if (value.usuario === user || value.email === user) {
+        if (value.usuario === user) {
             if(value.senha === password) {
                 window.location.href = "principal.html";
                 validLogin = true;
@@ -53,7 +53,7 @@ input.addEventListener("focus", function() {
 
 input.addEventListener("blur", function() {
     if (input.value === "") {
-        input.placeholder = "Usuário ou E-mail";
+        input.placeholder = "Usuário";
     }
 });
 
