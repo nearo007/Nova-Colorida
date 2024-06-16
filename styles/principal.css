@@ -28,19 +28,14 @@ button:active {background-color: transparent;}
     
 }
 
-@media (max-width: 1494px) {
+@media (max-height: 745px) {
     .main-background {
-        height: 200vh;
+        height: 180vh;
     }
 }
-@media (max-width: 1358px) {
+@media (max-height: 677px) {
     .main-background {
         height: 220vh;
-    }
-}
-@media (max-height: 746px) {
-    .main-background {
-        height: 200vh;
     }
 }
 

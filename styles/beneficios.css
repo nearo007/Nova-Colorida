@@ -1,25 +1,20 @@
 .main-background {
   position: relative;
-  height: 860vh;
+  height: 840vh;
   background-image: url(../imagens/background_imagens/MAOCOLORIDA-25.jpg);
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
   background-attachment: fixed;
 }
-@media (max-width: 1494px) {
+@media (max-height: 745px) {
   .main-background {
-      height: 940vh;
+      height: 920vh;
   }
 }
-@media (max-width: 1358px) {
+@media (max-height: 677px) {
   .main-background {
-      height: 1100vh;
-  }
-}
-@media (max-height: 746px) {
-  .main-background {
-      height: 1100vh;
+      height: 1080vh;
   }
 }
 

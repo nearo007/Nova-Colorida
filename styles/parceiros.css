@@ -17,7 +17,7 @@ button:hover {background-color: rgb(228, 228, 228);}
 button:active {background-color: transparent;}
 
 .main-background {
-    height: 330vh;
+    height: 320vh;
     position: relative;
     background-image: url(../imagens/background_imagens/MAOCOLORIDA-32.jpg);
     background-size: cover; 
@@ -26,19 +26,14 @@ button:active {background-color: transparent;}
     background-attachment: fixed;
 }
 
-@media (max-width: 1494px) {
+@media (max-height: 745px) {
     .main-background {
-        height: 400vh;
+        height: 360vh;
     }
 }
-@media (max-width: 1358px) {
+@media (max-height: 677px) {
     .main-background {
-        height: 500vh;
-    }
-}
-@media (max-height: 746px) {
-    .main-background {
-        height: 500vh;
+        height: 420vh;
     }
 }
 
