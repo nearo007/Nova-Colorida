@@ -1,0 +1,95 @@
+.main-background {
+  position: relative;
+  height: 860vh;
+  background-image: url(../imagens/background_imagens/MAOCOLORIDA-25.jpg);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}
+@media (max-width: 1494px) {
+  .main-background {
+      height: 940vh;
+  }
+}
+@media (max-width: 1358px) {
+  .main-background {
+      height: 1100vh;
+  }
+}
+@media (max-height: 746px) {
+  .main-background {
+      height: 1100vh;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Calibri;
+}
+
+.page-title {
+  color: white;
+  font-size: 70px;
+  font-family: Arial;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#benefits p {
+  font-size: 25px;
+}
+
+#benefits {
+  margin-left: 0px;
+  padding: 20px;
+}
+
+#benefits h2 {
+  font-size: 60px;
+  padding-top: 90px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.benefit-card {
+  width: 60%;
+  background: rgba(255, 255, 255, 0.137);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  color: #fff;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 50px 20px;
+  margin: 30px 0;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgb(110, 110, 110);
+  transition: 0.5s;
+}
+.benefit-card:hover {backdrop-filter: blur(10px);}
+
+h3.title {
+  font-size: 40px;
+  color: white;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.h3-cards {
+  font-size: 30px;
+}
+
+.benefit-card img {
+  width: 160px;
+  object-fit: scale-down;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  margin: 0 5px 0 5px;
+}
+
+.benefits-category {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

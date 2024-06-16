@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Calibri;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 5px 0 5px;
+    transition: background-color 0.2s;
+
+}
+button:hover {background-color: rgb(228, 228, 228);}
+button:active {background-color: transparent;}
+
+.main-background {
+    position: relative;
+    height: 160vh;
+    background-image: url(../imagens/background_imagens/MAOCOLORIDA-6.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    
+}
+
+@media (max-width: 1494px) {
+    .main-background {
+        height: 200vh;
+    }
+}
+@media (max-width: 1358px) {
+    .main-background {
+        height: 220vh;
+    }
+}
+@media (max-height: 746px) {
+    .main-background {
+        height: 200vh;
+    }
+}
+
+.middle-content {
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.div-introduction {
+    background: rgba(255, 255, 255, 0.137);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    display: flex;
+    width: 45%;
+    height: 35%;
+    margin: auto;
+    border-radius: 8px;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(110, 110, 110);
+    padding: 20px;
+    transition: 0.5s;
+}
+.div-introduction:hover {backdrop-filter: blur(10px);}
+
+.p-introduction span {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.p-introduction {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    font-family: Calibri;
+    padding: 0 20px;
+    margin: auto;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.div-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top:30px;
+}
+
+.div-card {
+    background: rgba(255, 255, 255, 0.137);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 260px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(110, 110, 110);
+    margin: 0 30px 0 30px;
+    transition: 0.5s;
+}
+.div-card:hover {backdrop-filter: blur(10px);}
+
+.card-title {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Calibri;
+    font-weight: bold;
+    margin: 20px 0 0 0;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-image {
+    width: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+}
+
+.card-text {
+    color: #ffffff;
+    width: 80%;
+    font-size: 20px;
+    font-family: Calibri;
+    margin: 20px 0 0 0;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}

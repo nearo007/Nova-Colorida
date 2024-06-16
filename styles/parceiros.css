@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Calibri;
+}
+button {
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 5px 0 5px;
+    transition: background-color 0.2s;
+
+}
+button:hover {background-color: rgb(228, 228, 228);}
+button:active {background-color: transparent;}
+
+.main-background {
+    height: 330vh;
+    position: relative;
+    background-image: url(../imagens/background_imagens/MAOCOLORIDA-32.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+@media (max-width: 1494px) {
+    .main-background {
+        height: 400vh;
+    }
+}
+@media (max-width: 1358px) {
+    .main-background {
+        height: 500vh;
+    }
+}
+@media (max-height: 746px) {
+    .main-background {
+        height: 500vh;
+    }
+}
+
+.container-introduction {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(110, 110, 110);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+
+    top: 150px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.137);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    padding-top: 30px;
+}
+.container-introduction:hover {backdrop-filter: blur(10px);}
+
+.title-introduction{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    font-family: Calibri;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.txt-introduction{
+    padding: 30px 75px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.8;
+    color: white;
+    font-family: Calibri;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container-clients {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+    width: 60%;
+}
+
+.div-client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 10px 20px;
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+    background: rgba(255, 255, 255, 0.137);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgb(110, 110, 110);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    margin-bottom: 100px;
+    transition: 0.5s;
+}
+
+.div-client:hover {backdrop-filter: blur(10px);}
+
+.img-cacau, .img-renner, .img-subway, .img-boticario {
+    width: 45%;
+    height: 100%;
+    object-fit: contain;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgb(110, 110, 110);
+}
+
+.txt-cacau, .txt-renner, .txt-subway, .txt-boticario {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.ab {
+    display: flex;
+}

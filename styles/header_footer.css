@@ -1,0 +1,159 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+button {
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 5px 0 5px;
+    transition: background-color 0.2s;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+button:hover {background-color: rgba(228, 228, 228, 0.164);}
+button:active {background-color: transparent;}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0.137);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 100;
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgb(110, 110, 110);
+}
+.header:hover {backdrop-filter: blur(10px);}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    align-items: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+.header-logo-button {
+    padding: 0;
+    margin: 0 0 0 10px;
+    height: 80px;
+    width: 80px;
+
+}
+.header-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+.logo-name {
+    margin: 0 0 0 20px;
+    font-size: 45px;
+}
+.header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 30px 0 0;
+}
+.header-button {
+    position: relative;
+    display: inline-block;
+}
+.user-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 0 0 15px;
+    padding: 0;
+}
+.user-image {
+    width: 50px;
+}
+.dropdown-content {
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 60px;
+    right: -15px;
+    z-index: 1;
+    color: white;
+    width: 80px;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.dropdown-content button {
+    width: 100%;
+    background: rgba(57, 61, 75, 0.479);
+    border: 1px solid rgb(110, 110, 110);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: backdrop-filter 0.5s;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.header-button:hover .dropdown-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.137);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid rgb(110, 110, 110);
+    position: absolute;
+    height: 172px;
+}
+.footer:hover {backdrop-filter: blur(10px);}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer-section1 h3, .footer-section2 h3, .footer-section3 h3, .footer-section4 h3{
+    text-align: center;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.copyright span{
+    font-family: Playfair Display SC;
+}
