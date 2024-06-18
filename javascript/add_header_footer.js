@@ -15,8 +15,8 @@ function addHeader() {
     </div>
 
     <div class="header-button">
-        <button class="js-header-parceiros">
-            Parceiros
+        <button class="js-header-clientes">
+            Clientes
         </button>      
     </div>
 

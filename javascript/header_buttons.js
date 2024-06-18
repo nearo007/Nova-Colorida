@@ -4,8 +4,8 @@ buttonPrincipal.onclick = openMain;
 const buttonSobre = document.querySelector('.js-header-sobre');
 buttonSobre.onclick = openMain;
 
-const buttonParceiros = document.querySelector('.js-header-parceiros');
-buttonParceiros.onclick = openParceiros;
+const buttonClientes = document.querySelector('.js-header-clientes');
+buttonClientes.onclick = openClientes;
 
 const buttonBeneficios = document.querySelector('.js-header-beneficios');
 buttonBeneficios.onclick = openBenefits;
@@ -20,8 +20,8 @@ function openMain() {
     window.location.href = 'principal.html'
 }
 
-function openParceiros() {
-    window.location.href = 'parceiros.html'
+function openClientes() {
+    window.location.href = 'clientes.html'
 }
 
 function openBenefits() {
