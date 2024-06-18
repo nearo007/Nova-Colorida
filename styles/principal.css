@@ -19,7 +19,7 @@ button:active {background-color: transparent;}
 
 .main-background {
     position: relative;
-    height: 160vh;
+    height: 240vh;
     background-image: url(../imagens/background_imagens/MAOCOLORIDA-6.jpg);
     background-size: cover; 
     background-position: center; 
@@ -27,18 +27,16 @@ button:active {background-color: transparent;}
     background-attachment: fixed;
     
 }
-
 @media (max-height: 745px) {
     .main-background {
-        height: 180vh;
+        height: 280vh;
     }
 }
 @media (max-height: 677px) {
     .main-background {
-        height: 220vh;
+        height: 340vh;
     }
 }
-
 .middle-content {
     display: flex;
     position: absolute;
@@ -47,9 +45,8 @@ button:active {background-color: transparent;}
     right: 0;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
-
-
 
 .div-introduction {
     background: rgba(255, 255, 255, 0.137);
@@ -58,7 +55,6 @@ button:active {background-color: transparent;}
     display: flex;
     width: 45%;
     height: 35%;
-    margin: auto;
     border-radius: 8px;
     align-items: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -79,7 +75,7 @@ button:active {background-color: transparent;}
     color: #ffffff;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
     font-size: 20px;
     font-family: Calibri;
     padding: 0 20px;
@@ -87,11 +83,53 @@ button:active {background-color: transparent;}
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+.div-historia {
+    background: rgba(255, 255, 255, 0.137);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    display: flex;
+    width: 60%;
+    margin-top: 40px;
+    border-radius: 8px;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(110, 110, 110);
+    padding: 20px;
+    transition: 0.5s;
+}
+.div-historia:hover {backdrop-filter: blur(10px);}
+
+.img-historia {
+    border-radius: 4px;
+    width: 40%;
+}
+
+.p-historia span {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.p-historia {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 80px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Calibri;
+    padding: 0 20px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
 .div-cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top:30px;
+    margin-top: 40px;
 }
 
 .div-card {
@@ -102,7 +140,7 @@ button:active {background-color: transparent;}
     flex-direction: column;
     align-items: center;
     width: 25%;
-    height: 290px;
+    padding-bottom: 20px;
     border-radius: 8px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     border: 1px solid rgb(110, 110, 110);
