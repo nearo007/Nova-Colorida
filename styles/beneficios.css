@@ -1,6 +1,6 @@
 .main-background {
   position: relative;
-  height: 840vh;
+  height: 1000vh;
   background-image: url(../imagens/background_imagens/MAOCOLORIDA-25.jpg);
   background-size: cover; 
   background-position: center; 
@@ -9,12 +9,12 @@
 }
 @media (max-height: 745px) {
   .main-background {
-      height: 920vh;
+    height: 1100vh;
   }
 }
 @media (max-height: 677px) {
   .main-background {
-      height: 1080vh;
+    height: 1280vh;
   }
 }
 
@@ -88,15 +88,18 @@ body {
   color: white;
   text-align: center;
   font-size: 20px;
+  transition: 0.5s;
 }
+.benefit-grid-card:hover {backdrop-filter: blur(10px);}
+
 .benefit-img-div {
   width: 70px;
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 40%;
-  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
 }
 .benefit-grid-img {
   width: 50%;
