@@ -19,7 +19,7 @@ button:active {background-color: transparent;}
 
 .main-background {
     position: relative;
-    height: 240vh;
+    height: 260vh;
     background-image: url(../imagens/background_imagens/MAOCOLORIDA-6.jpg);
     background-size: cover; 
     background-position: center; 
@@ -29,12 +29,12 @@ button:active {background-color: transparent;}
 }
 @media (max-height: 745px) {
     .main-background {
-        height: 280vh;
+        height: 300vh;
     }
 }
 @media (max-height: 677px) {
     .main-background {
-        height: 340vh;
+        height: 380vh;
     }
 }
 .middle-content {
@@ -48,12 +48,20 @@ button:active {background-color: transparent;}
     align-items: center;
 }
 
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Arial;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 80px;
+}
+
 .div-introduction {
     background: rgba(255, 255, 255, 0.137);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     display: flex;
-    width: 45%;
+    width: 60%;
     height: 35%;
     border-radius: 8px;
     align-items: center;

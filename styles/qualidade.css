@@ -17,7 +17,7 @@ button:hover {background-color: rgb(228, 228, 228);}
 button:active {background-color: transparent;}
 
 .main-background {
-    height: 300vh;
+    height: 350vh;
     position: relative;
     background-image: url(../imagens/background_imagens/MAOCOLORIDA-32.jpg);
     background-size: cover; 
@@ -28,16 +28,21 @@ button:active {background-color: transparent;}
 
 @media (max-height: 745px) {
     .main-background {
-        height: 360vh;
+        height: 400vh;
     }
 }
 @media (max-height: 677px) {
     .main-background {
-        height: 420vh;
+        height: 500vh;
     }
 }
 
-h1, h2, h3, p, li {
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+h2, h3, p, li {
     color: #fff;
 }
 
@@ -53,7 +58,7 @@ h1, h2, h3, p, li {
 }
 
 .qualit{
-    font-size: 70px;
+    font-size: 50px;
     font-family: Arial;
     margin: 0;
     padding-top: 170px;
@@ -63,16 +68,21 @@ h1, h2, h3, p, li {
 
 }
 
-.qualidade, .melhoria, .gestao{
+.qualidade, .melhoria, .gestao {
     margin: 50px;
     background: rgba(255, 255, 255, 0.137);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
-    width: 80%;
+    width: 50%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: auto;
-    border-radius: 20px;
+    border-radius: 8px;
+    padding: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .qualidade .title-compromisso, .title-melhoria, .title-gestao{
@@ -86,6 +96,11 @@ h1, h2, h3, p, li {
     font-size: 30px;
 }
 
+.esse {
+    width: 80%;
+    text-align: center;
+}
+
 .img-download{
     margin-left: 10px;
     vertical-align: middle;
@@ -96,7 +111,7 @@ h1, h2, h3, p, li {
 .img-qr{
     width: 170px;
     height: 170px;
-
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .av{
