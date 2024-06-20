@@ -10,6 +10,9 @@ buttonClientes.onclick = openClientes;
 const buttonBeneficios = document.querySelector('.js-header-beneficios');
 buttonBeneficios.onclick = openBenefits;
 
+const buttonFuncionario = document.querySelector('.js-header-funcionario');
+buttonFuncionario.onclick = openFuncionario;
+
 const buttonContato = document.querySelector('.js-header-contato');
 buttonContato.onclick = openContacts;
 
@@ -26,6 +29,10 @@ function openClientes() {
 
 function openBenefits() {
     window.location.href = 'beneficios.html'
+}
+
+function openFuncionario() {
+    window.location.href = 'funcionario.html'
 }
 
 function openContacts() {

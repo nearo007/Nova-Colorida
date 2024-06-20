@@ -1,0 +1,154 @@
+.main-background {
+position: relative;
+height: 540vh;
+background-image: url(../imagens/background_imagens/MAOCOLORIDA-25.jpg);
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat; 
+background-attachment: fixed;
+}
+@media (max-height: 745px) {
+.main-background {
+height: 620vh;
+}
+}
+@media (max-height: 677px) {
+.main-background {
+height: 700vh;
+}
+}
+
+body {
+margin: 0;
+font-family: Calibri;
+}
+
+.page-title {
+color: white;
+font-size: 70px;
+font-family: Arial;
+text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#benefits {
+margin-left: 0px;
+padding: 20px;
+}
+
+#benefits h2 {
+font-size: 60px;
+padding-top: 90px;
+text-align: center;
+padding-bottom: 50px;
+}
+
+.benefit-card {
+width: 60%;
+background: rgba(255, 255, 255, 0.137);
+-webkit-backdrop-filter: blur(4px);
+backdrop-filter: blur(4px);
+color: #fff;
+text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+border-radius: 8px;
+padding: 50px 20px;
+margin: 30px 0;
+font-size: 25px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+border: 1px solid rgb(110, 110, 110);
+transition: 0.5s;
+}
+.benefit-card:hover {backdrop-filter: blur(10px);}
+
+.funcionario-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 60%;
+row-gap: 40px;
+column-gap: 20px;
+padding: 20px;
+border-radius: 8px;
+}
+.funcionario-grid-single {
+display: grid;
+grid-template-columns: 1fr;
+width: 60%;
+row-gap: 40px;
+column-gap: 20px;
+padding: 20px;
+border-radius: 8px;
+}
+
+.benefit-img {
+width: 60%;
+}
+
+.benefit-grid-card {
+border: 1px solid rgb(110, 110, 110);
+border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.137);
+-webkit-backdrop-filter: blur(4px);
+backdrop-filter: blur(4px);
+
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+margin: 0 5px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+text-align: center;
+font-size: 20px;
+transition: 0.5s;
+}
+.benefit-grid-card:hover {backdrop-filter: blur(10px);}
+
+.benefit-img-div {
+width: 70px;
+height: 70px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+border: 2px solid rgb(255, 255, 255);
+}
+.benefit-grid-img {
+width: 50%;
+}
+.benefit-grid-card-title {
+font-size: 25px;
+font-weight: bold;
+margin-bottom: 20px;
+text-align: center;
+text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h3.title {
+font-size: 40px;
+color: white;
+text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.h3-cards {
+font-size: 30px;
+}
+
+.benefit-card img {
+width: 120px;
+object-fit: scale-down;
+margin-bottom: 15px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+border-radius: 30px;
+margin: 0 5px 0 5px;
+}
+
+.benefits-category {
+margin-bottom: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}

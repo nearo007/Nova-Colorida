@@ -27,6 +27,12 @@ function addHeader() {
     </div>
 
     <div class="header-button">
+        <button class="js-header-funcionario">
+            Funcionário
+        </button>     
+    </div>
+
+    <div class="header-button">
         <button class="js-header-contato">
             Contato
         </button>       
