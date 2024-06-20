@@ -21,6 +21,12 @@ function addHeader() {
     </div>
 
     <div class="header-button">
+        <button class="js-header-qualidade">
+            Qualidade
+        </button>      
+    </div>
+
+    <div class="header-button">
         <button class="js-header-beneficios">
             Benefícios
         </button>     
