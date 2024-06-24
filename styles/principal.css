@@ -111,6 +111,7 @@ h1 {
 .img-historia {
     border-radius: 4px;
     width: 40%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .p-historia span {
@@ -162,7 +163,7 @@ h1 {
     font-size: 30px;
     font-family: Calibri;
     font-weight: bold;
-    margin: 20px 0 0 0;
+    margin: 20px 0 10px 0;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
