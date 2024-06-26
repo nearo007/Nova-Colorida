@@ -19,7 +19,7 @@ button:active {background-color: transparent;}
 
 .main-background {
     position: relative;
-    height: 750vh;
+    height: 700vh;
     background-image: url(../imagens/background_imagens/MAOCOLORIDA-6.jpg);
     background-size: cover; 
     background-position: center; 
@@ -29,12 +29,12 @@ button:active {background-color: transparent;}
 }
 @media (max-height: 745px) {
     .main-background {
-        height: 800vh;
+        height: 750vh;
     }
 }
 @media (max-height: 677px) {
     .main-background {
-        height: 900vh;
+        height: 850vh;
     }
 }
 .middle-content {
