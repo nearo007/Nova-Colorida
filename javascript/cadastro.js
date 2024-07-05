@@ -78,7 +78,8 @@ function signUp() {
                 popup: 'custom-popup',
             }
         });
-    } else {
+    }
+    else {
         let usuarioExistente = userDataBase.some(item => item.usuario === getInputValue(".input-user"));
 
         if (usuarioExistente) {
@@ -91,7 +92,8 @@ function signUp() {
                     popup: 'custom-popup',
                 }
             });
-        } else {
+        }
+        else {
             userDataBase.push({
                 usuario: getInputValue(".input-user"),
                 email: getInputValue(".input-email"),
@@ -99,7 +101,15 @@ function signUp() {
                 senha: getInputValue(".input-password")
             });
             localStorage.setItem('userDataBase', JSON.stringify(userDataBase));
-            window.location.href = 'index.html';
+            Swal.fire({
+                icon: 'success',
+                title: 'Sucesso',
+                text: 'Usuário cadastrado com sucesso!',
+                heightAuto: false,
+                customClass: {
+                    popup: 'custom-popup',
+                }
+            });
         }
     }
 }
