@@ -60,5 +60,5 @@ Cada botão está vinculado a uma função que altera a propriedade `window.loca
 ## Tela de Benefícios
 ![image](https://github.com/user-attachments/assets/e4451010-0597-4c46-b421-f125a5284977)
 
-##Tela de Contato
+## Tela de Contato
 ![image](https://github.com/user-attachments/assets/3beb17d2-6dfc-47eb-8482-68cdaa18d5b5)
