@@ -1,44 +1,44 @@
-# 🌐 Navegação Dinâmica - Projeto Web
+# Navegação Dinâmica - Projeto Web
 
 Este projeto é um sistema web com navegação entre páginas utilizando JavaScript puro. Cada botão do cabeçalho redireciona o usuário para uma seção específica do sistema, proporcionando uma experiência simples e rápida.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-- 🔄 **Página Principal / Sobre**  
+- **Página Principal / Sobre**  
   - Acesso via: Logo ou botão "Sobre"  
   - Redireciona para: `principal.html`
 
-- 👥 **Clientes**  
+- **Clientes**  
   - Botão "Clientes"  
   - Redireciona para: `clientes.html`
 
-- ✅ **Qualidade**  
+- **Qualidade**  
   - Botão "Qualidade"  
   - Redireciona para: `qualidade.html`
 
-- 🎯 **Benefícios**  
+- **Benefícios**  
   - Botão "Benefícios"  
   - Redireciona para: `beneficios.html`
 
-- 🧑‍💼 **Funcionários**  
+- **Funcionários**  
   - Botão "Funcionário"  
   - Redireciona para: `funcionario.html`
 
-- 📞 **Contato**  
+- **Contato**  
   - Botão "Contato"  
   - Redireciona para: `contato.html`
 
-- 🚪 **Sair / Logout**  
+- **Sair / Logout**  
   - Botão "Sair" no menu dropdown  
   - Redireciona para: `index.html`
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - HTML5  
 - CSS3  
 - JavaScript (puro)
 
-## 📂 Estrutura
+## Estrutura
 
 Cada botão está vinculado a uma função que altera a propriedade `window.location.href`, garantindo uma navegação simples entre as páginas estáticas do sistema.
 
